@@ -1,8 +1,8 @@
-#import "MyCordovaPlugin.h"
+#import "SystemSound.h"
 
 #import <Cordova/CDVAvailability.h>
 
-@implementation MyCordovaPlugin
+@implementation SystemSound
 
 - (void)pluginInitialize {
 }

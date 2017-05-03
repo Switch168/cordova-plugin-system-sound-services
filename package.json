@@ -1,12 +1,11 @@
 {
-  "name": "cordova-plugin-template",
+  "name": "cordova-plugin-system-sound-services",
   "version": "1.0.0",
   "cordova": {
-    "id": "cordova-plugin-template",
+    "id": "cordova-plugin-system-sound-services",
     "platforms": [
-      "android",
       "ios",
     ]
   },
-  "description": "A starting point for a Cordova Plugin"
+  "description": "A plugin to play sounds through System Sound Services for iOS"
 }
