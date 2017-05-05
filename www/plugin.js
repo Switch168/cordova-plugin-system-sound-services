@@ -4,7 +4,7 @@ var exec = require('cordova/exec');
 var PLUGIN_NAME = 'SystemSound';
 
 var SystemSound = {
-    playSound: function(cb) {
+    playSound: function(phrase, cb) {
         exec(cb, null, PLUGIN_NAME, 'playSound', [phrase]);
     }
 };
