@@ -5,7 +5,7 @@ var PLUGIN_NAME = 'SystemSound';
 
 var SystemSound = {
     playSound: function(cb) {
-        exec(cb, null, PLUGIN_NAME, 'playSound', []);
+        exec(cb, null, PLUGIN_NAME, 'playSound', [phrase]);
     }
 };
 
