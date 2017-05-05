@@ -1,10 +1,9 @@
 #import <Cordova/CDVPlugin.h>
+#import <Foundation/Foundation.h>
 
 @interface SystemSound : CDVPlugin {
 }
 
-// The hooks for our plugin commands
-- (void)echo:(CDVInvokedUrlCommand *)command;
-- (void)getDate:(CDVInvokedUrlCommand *)command;
+- (void)playSound:(CDVInvokedUrlCommand *)command;
 
 @end

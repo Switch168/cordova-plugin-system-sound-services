@@ -1,11 +1,25 @@
 {
   "name": "cordova-plugin-system-sound-services",
   "version": "1.0.0",
+  "description": "Play system sound services",
   "cordova": {
     "id": "cordova-plugin-system-sound-services",
     "platforms": [
-      "ios",
+      "ios"
     ]
   },
-  "description": "A plugin to play sounds through System Sound Services for iOS"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Switch168/cordova-plugin-system-sound-services.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Andrew Tan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Switch168/cordova-plugin-system-sound-services/issues"
+  },
+  "homepage": "https://github.com/Switch168/cordova-plugin-system-sound-services#readme"
 }
