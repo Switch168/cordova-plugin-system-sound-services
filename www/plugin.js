@@ -1,12 +1,11 @@
+let exec = require('cordova/exec');
 
-var exec = require('cordova/exec');
+let PLUGIN_NAME = 'SystemSound';
 
-var PLUGIN_NAME = 'SystemSound';
-
-var SystemSound = {
-    playSound: function(phrase, cb) {
-        exec(cb, null, PLUGIN_NAME, 'playSound', [phrase]);
-    }
+let SystemSound = {
+    playSound: function(phrase, directory, cb) {
+        exec(cb, null, PLUGIN_NAME, 'playSound', [phrase, directory]);
+    },
 };
 
 module.exports = SystemSound;

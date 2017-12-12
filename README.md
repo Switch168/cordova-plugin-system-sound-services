@@ -8,7 +8,7 @@ This is a simple plugin to play sound for iOS. The main motivation for creating 
 In your root Cordova project
 
 ```bash
-$ cordova plugin add cordova-system-sound-services
+$ cordova plugin add cordova-plugin-system-sound-services
 ```
 
 Make sure you have your-sound-file.wav imported to the ios target as a part of your build process so it exists when you run build ios command. 
@@ -18,5 +18,11 @@ Make sure you have your-sound-file.wav imported to the ios target as a part of y
 Somewhere after/before running your DTMF function 
 
 ```
-window.SystemSound.playSound('your-sound-file');
+window.SystemSound.playSound('your-sound-file.wav');
+```
+
+If you sound is not located in the root of the xcode project
+
+```
+window.SystemSound.playSound('your-sound-file.wav', 'path/to/folder/with/sounds');
 ```
