@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-system-sound-services"
-    version="1.0.0">
+    version="1.2.0">
     <name>Cordova Plugin System Sound Services</name>
     <description>Play system sound services</description>
     <license>MIT</license>
