@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-system-sound-services",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Play system sound services",
   "cordova": {
     "id": "cordova-plugin-system-sound-services",
