@@ -21,7 +21,7 @@
     NSString* fileName = [[fullFileName lastPathComponent] stringByDeletingPathExtension];
     NSString* extension = [fullFileName pathExtension];
     NSString* audioPath;
-    if (searchInDirectory) {
+    if (( ![searchInDirectory isEqual:[NSNull null]] ) && ( [searchInDirectory length] != 0 ) ) {
         audioPath = [[NSBundle mainBundle] pathForResource:fileName ofType:extension inDirectory:searchInDirectory];
     } else {
         audioPath = [[NSBundle mainBundle] pathForResource:fileName ofType:extension];
